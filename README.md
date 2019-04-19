@@ -8,4 +8,5 @@ Let us visualize maps using Tableau.
 2) For the Ceará Brazil example, we'll extract the data from two sources, the source 2a is from wikipedia, where we'll get the population from the cities in Ceará, Brazil. And the second source 2b is from the national tourism government website, where we'll find the tourism classication per city in Ceará. The classifications go from A to E, where A are the most well prepared cities to receive tourists.  
   2a) https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Cear%C3%A1_por_popula%C3%A7%C3%A3o  
   2b) http://www.turismo.gov.br/assuntos/8142-mapa-do-turismo-do-cear%C3%A1-cresce-e-estado-chega-a-74-munic%C3%ADpios-com-potencial-tur%C3%ADstico.html  
+  I have copied these data above into the excel file: Ceará.xlsx  
   The data needs to be slightly cleaned beforehand and for that we'll use Tableau Prep. With Tableau Prep we'll clean the population variable because it comes from the website originally with spaces as a thousand separator and Tableau would first interpret that as a string instead of a number. And the we'll join both datasets using the city names.
